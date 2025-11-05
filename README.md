@@ -26,7 +26,7 @@ It allows you to:
 
 > **Note:**  
 > Many official sources (e.g., NSE, Yahoo Finance, FRED, Investing.com) allow direct downloads of **weekly** or **monthly** data.  
-> Therefore, this notebook does **not** perform resampling — it assumes your data is already frequency-adjusted.
+> Therefore, this notebook does **not** perform resampling, it assumes your data is already frequency-adjusted.
 
 ---
 
@@ -99,5 +99,6 @@ A detailed personal **project report** will be added soon in a `/report` folder.
 Install everything with:
 ```bash
 pip install -r requirements.txt
+
 
 
